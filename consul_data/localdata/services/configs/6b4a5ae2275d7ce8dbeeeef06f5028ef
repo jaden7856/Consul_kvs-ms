@@ -1,0 +1,1 @@
+{"ServiceID":"order-ms-sidecar-proxy","Defaults":{"ProxyConfig":null,"UpstreamConfigs":null,"UpstreamIDConfigs":null,"MeshGateway":{},"Expose":{},"Index":10,"LastContact":0,"KnownLeader":true,"ConsistencyLevel":"","NotModified":false}}

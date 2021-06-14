@@ -1,0 +1,21 @@
+{
+  "service": {
+    "name": "tax-ms",
+    "address": "10.5.0.5",
+    "tags": ["tax-app"],
+    "port": 5000,
+    "connect": {
+      "sidecar_service": {
+        "port": 19001,
+        "check": {
+          "name": "Connect Envoy Sidecar - tax",
+          "tcp": "10.5.0.5:19001",
+          "interval": "10s"
+        },
+        "proxy": {
+          "upstreams": []
+        }
+      }
+    }   
+  }
+}
